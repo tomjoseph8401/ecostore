@@ -1,0 +1,28 @@
+nav {
+    background-color: #180e53;
+    padding: 0.5rem 1.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+nav li {
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background 0.2s, color 0.2s;
+}
+
+nav li:hover {
+    background: #b3e7ff;
+    color: #0a0035;
+}

@@ -1,0 +1,6 @@
+.products .row {
+    display: grid; /* Use CSS Grid for a flexible and responsive layout */
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Create responsive columns */
+    gap: 25px; /* Space between product cards */
+    justify-content: center; /* Center cards if there aren't enough to fill a row */
+}
